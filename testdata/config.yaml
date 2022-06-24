@@ -1,0 +1,18 @@
+receivers:
+  nop:
+
+processors:
+  obfuscateattributes:
+
+exporters:
+  nop:
+
+service:
+  pipelines:
+    traces:
+      receivers:
+        - nop
+      processors:
+        - obfuscateattributes
+      exporters:
+        - nop
