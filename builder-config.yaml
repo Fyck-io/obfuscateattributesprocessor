@@ -8,5 +8,6 @@ receivers:
 
 processors:
   - gomod: "github.com/Fyck-io/obfuscateattributesprocessor v0.0.0"
+    path: "<full path to root dir of this project>"
   - import: go.opentelemetry.io/collector/processor/batchprocessor
     gomod: go.opentelemetry.io/collector v0.40.0

@@ -1,6 +1,6 @@
 # Obfuscate Attributes Processor
 
-It's not working rb :(
+Custom Collector Processor which obfuscates traces attributes.
 
 ## Building your own Collector
 
